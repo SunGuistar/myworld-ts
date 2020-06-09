@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './appMain/App';
 import * as serviceWorker from './serviceWorker';
+import DragChange from './dragAndChange/dragAndChange';
+import Drag from './dragAPI/drag';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <DragChange />
   </React.StrictMode>,
   document.getElementById('root')
 );
